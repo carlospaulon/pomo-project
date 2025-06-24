@@ -1,2 +1,27 @@
 @import '../base/reset.css';
 @import '../base/base.css';
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pomo-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: green;
+    border: 1px solid black;
+    width: 200px;
+    height: 200px;
+
+}
+
+.action-box {
+    
+    background-color: red;
+    border: 2px solid blue;
+    width: fit-content;
+}
